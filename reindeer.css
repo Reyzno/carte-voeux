@@ -1,0 +1,29 @@
+body {
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-image: url();
+    margin-top: 1.2%;
+    margin-left: 25%;
+}
+
+svg {
+    -webkit-box-shadow: 4px 6px 31px -10px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 4px 6px 31px -10px rgba(0, 0, 0, 0.75);
+    box-shadow: 4px 6px 31px -10px rgba(0, 0, 0, 0.75);
+}
+
+#nuage {
+    animation-iteration-count: infinite;
+    animation-name: nuage;
+    animation-duration: 20s;
+    margin-right: 220%;
+}
+
+@keyframes nuage {
+    0% {
+        transform: translateX(-130%);
+    }
+    100% {
+        transform: translateX(500%);
+    }
+}
